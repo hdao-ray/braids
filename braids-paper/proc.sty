@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%           Proceedings Style File             %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[T1]{fontenc}
+
+
+\usepackage{graphicx}
+\usepackage{geometry}
+
+
+\usepackage{lineno}
+% \linenumbers
+
+
+%\usepackage{biblatex} %Imports biblatex package
+  \usepackage[
+    backend=biber,
+    style=alphabetic,
+  ]{biblatex}
+\addbibresource{bibliography.bib}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{1}                   %%%%%%%
+\setlength{\textwidth}{5.4in}          %%%%%%%
+\setlength{\textheight}{8.0in}         %%%%%%%
+\setlength{\evensidemargin}{0.5in}       %%%%%%%
+\setlength{\oddsidemargin}{0.5in}        %%%%%%%
+\setlength{\topmargin}{.5in}           %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{example}[theorem]{Example}
+
+
+\numberwithin{equation}{section}

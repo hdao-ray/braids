@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[132] biber-MSWIN64:340> INFO - === 
+[176] Biber.pm:418> INFO - Reading 'main.bcf'
+[291] Biber.pm:972> INFO - Found 6 citekeys in bib section 0
+[307] Biber.pm:4383> INFO - Processing section 0
+[321] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[377] bibtex.pm:1713> INFO - LaTeX decoding ...
+[402] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[510] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[510] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[510] Biber.pm:4203> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[510] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[521] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[524] bbl.pm:757> INFO - Output to main.bbl
+[524] Biber.pm:130> WARN - ISBN '0-471-43334-7' in entry 'df' is invalid - run biber with '--validate_datamodel' for details.
+[524] Biber.pm:132> INFO - WARNINGS: 1
